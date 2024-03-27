@@ -1,4 +1,6 @@
-#! /use/bin/node
+#! /use/bin/env node
+
+
 import inquirer from 'inquirer';
 let answers = await inquirer.prompt([
     {
